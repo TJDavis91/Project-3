@@ -1,0 +1,560 @@
+[
+  {
+    "": 0,
+    "Month_Year": "2014-10-01",
+    "Closing_Price": 16.07699966430664,
+    "Volume": 1528
+  },
+  {
+    "": 1,
+    "Month_Year": "2014-11-01",
+    "Closing_Price": 15.48900032043457,
+    "Volume": 100090
+  },
+  {
+    "": 2,
+    "Month_Year": "2014-12-01",
+    "Closing_Price": 15.5649995803833,
+    "Volume": 4465
+  },
+  {
+    "": 3,
+    "Month_Year": "2015-01-01",
+    "Closing_Price": 17.191999435424805,
+    "Volume": 1005
+  },
+  {
+    "": 4,
+    "Month_Year": "2015-04-01",
+    "Closing_Price": 16.124000549316406,
+    "Volume": 80023
+  },
+  {
+    "": 5,
+    "Month_Year": "2015-05-01",
+    "Closing_Price": 16.68400001525879,
+    "Volume": 2161
+  },
+  {
+    "": 6,
+    "Month_Year": "2015-06-01",
+    "Closing_Price": 15.550999641418457,
+    "Volume": 78411
+  },
+  {
+    "": 7,
+    "Month_Year": "2015-07-01",
+    "Closing_Price": 14.746000289916992,
+    "Volume": 3361
+  },
+  {
+    "": 8,
+    "Month_Year": "2015-08-01",
+    "Closing_Price": 14.57699966430664,
+    "Volume": 75123
+  },
+  {
+    "": 9,
+    "Month_Year": "2015-09-01",
+    "Closing_Price": 14.512999534606934,
+    "Volume": 2419
+  },
+  {
+    "": 10,
+    "Month_Year": "2015-10-01",
+    "Closing_Price": 15.565999984741211,
+    "Volume": 272
+  },
+  {
+    "": 11,
+    "Month_Year": "2015-12-01",
+    "Closing_Price": 13.774999618530273,
+    "Volume": 1926
+  },
+  {
+    "": 12,
+    "Month_Year": "2016-01-01",
+    "Closing_Price": 14.229000091552734,
+    "Volume": 607
+  },
+  {
+    "": 13,
+    "Month_Year": "2016-02-01",
+    "Closing_Price": 14.895999908447266,
+    "Volume": 94150
+  },
+  {
+    "": 14,
+    "Month_Year": "2016-03-01",
+    "Closing_Price": 15.460000038146973,
+    "Volume": 8054
+  },
+  {
+    "": 15,
+    "Month_Year": "2016-04-01",
+    "Closing_Price": 17.788999557495117,
+    "Volume": 105261
+  },
+  {
+    "": 16,
+    "Month_Year": "2016-06-01",
+    "Closing_Price": 18.582000732421875,
+    "Volume": 88915
+  },
+  {
+    "": 17,
+    "Month_Year": "2016-07-01",
+    "Closing_Price": 20.312000274658203,
+    "Volume": 5047
+  },
+  {
+    "": 18,
+    "Month_Year": "2016-08-01",
+    "Closing_Price": 18.621999740600586,
+    "Volume": 63623
+  },
+  {
+    "": 19,
+    "Month_Year": "2016-09-01",
+    "Closing_Price": 19.138999938964844,
+    "Volume": 3410
+  },
+  {
+    "": 20,
+    "Month_Year": "2016-10-01",
+    "Closing_Price": 17.761999130249023,
+    "Volume": 502
+  },
+  {
+    "": 21,
+    "Month_Year": "2016-11-01",
+    "Closing_Price": 16.4060001373291,
+    "Volume": 85972
+  },
+  {
+    "": 22,
+    "Month_Year": "2016-12-01",
+    "Closing_Price": 15.935999870300293,
+    "Volume": 3701
+  },
+  {
+    "": 23,
+    "Month_Year": "2017-02-01",
+    "Closing_Price": 18.420000076293945,
+    "Volume": 105021
+  },
+  {
+    "": 24,
+    "Month_Year": "2017-03-01",
+    "Closing_Price": 18.235000610351562,
+    "Volume": 5475
+  },
+  {
+    "": 25,
+    "Month_Year": "2017-04-01",
+    "Closing_Price": 17.19099998474121,
+    "Volume": 139926
+  },
+  {
+    "": 26,
+    "Month_Year": "2017-05-01",
+    "Closing_Price": 17.368000030517578,
+    "Volume": 6489
+  },
+  {
+    "": 27,
+    "Month_Year": "2017-06-01",
+    "Closing_Price": 16.56800079345703,
+    "Volume": 96012
+  },
+  {
+    "": 28,
+    "Month_Year": "2017-07-01",
+    "Closing_Price": 16.75,
+    "Volume": 3228
+  },
+  {
+    "": 29,
+    "Month_Year": "2017-08-01",
+    "Closing_Price": 17.479999542236328,
+    "Volume": 252176
+  },
+  {
+    "": 30,
+    "Month_Year": "2017-09-01",
+    "Closing_Price": 16.60700035095215,
+    "Volume": 6563
+  },
+  {
+    "": 31,
+    "Month_Year": "2017-11-01",
+    "Closing_Price": 16.381999969482422,
+    "Volume": 121203
+  },
+  {
+    "": 32,
+    "Month_Year": "2017-12-01",
+    "Closing_Price": 17.059999465942383,
+    "Volume": 4048
+  },
+  {
+    "": 33,
+    "Month_Year": "2018-01-01",
+    "Closing_Price": 17.20400047302246,
+    "Volume": 583
+  },
+  {
+    "": 34,
+    "Month_Year": "2018-02-01",
+    "Closing_Price": 16.323999404907227,
+    "Volume": 93548
+  },
+  {
+    "": 35,
+    "Month_Year": "2018-03-01",
+    "Closing_Price": 16.222999572753906,
+    "Volume": 2443
+  },
+  {
+    "": 36,
+    "Month_Year": "2018-05-01",
+    "Closing_Price": 16.402000427246094,
+    "Volume": 6448
+  },
+  {
+    "": 37,
+    "Month_Year": "2018-06-01",
+    "Closing_Price": 16.104000091552734,
+    "Volume": 128191
+  },
+  {
+    "": 38,
+    "Month_Year": "2018-08-01",
+    "Closing_Price": 14.437999725341797,
+    "Volume": 86111
+  },
+  {
+    "": 39,
+    "Month_Year": "2018-09-01",
+    "Closing_Price": 14.623000144958496,
+    "Volume": 4235
+  },
+  {
+    "": 40,
+    "Month_Year": "2018-10-01",
+    "Closing_Price": 14.229000091552734,
+    "Volume": 985
+  },
+  {
+    "": 41,
+    "Month_Year": "2018-11-01",
+    "Closing_Price": 14.093999862670898,
+    "Volume": 109062
+  },
+  {
+    "": 42,
+    "Month_Year": "2018-12-01",
+    "Closing_Price": 15.432999610900879,
+    "Volume": 2502
+  },
+  {
+    "": 43,
+    "Month_Year": "2019-01-01",
+    "Closing_Price": 16.02199935913086,
+    "Volume": 697
+  },
+  {
+    "": 44,
+    "Month_Year": "2019-02-01",
+    "Closing_Price": 15.538000106811523,
+    "Volume": 79282
+  },
+  {
+    "": 45,
+    "Month_Year": "2019-03-01",
+    "Closing_Price": 15.0600004196167,
+    "Volume": 2252
+  },
+  {
+    "": 46,
+    "Month_Year": "2019-04-01",
+    "Closing_Price": 14.899999618530273,
+    "Volume": 97286
+  },
+  {
+    "": 47,
+    "Month_Year": "2019-05-01",
+    "Closing_Price": 14.529999732971191,
+    "Volume": 3104
+  },
+  {
+    "": 48,
+    "Month_Year": "2019-06-01",
+    "Closing_Price": 15.253000259399414,
+    "Volume": 116777
+  },
+  {
+    "": 49,
+    "Month_Year": "2019-07-01",
+    "Closing_Price": 16.34600067138672,
+    "Volume": 2190
+  },
+  {
+    "": 50,
+    "Month_Year": "2019-08-01",
+    "Closing_Price": 18.184999465942383,
+    "Volume": 122362
+  },
+  {
+    "": 51,
+    "Month_Year": "2019-10-01",
+    "Closing_Price": 18.013999938964844,
+    "Volume": 768
+  },
+  {
+    "": 52,
+    "Month_Year": "2019-11-01",
+    "Closing_Price": 16.9689998626709,
+    "Volume": 112925
+  },
+  {
+    "": 53,
+    "Month_Year": "2020-01-01",
+    "Closing_Price": 17.972000122070312,
+    "Volume": 1093
+  },
+  {
+    "": 54,
+    "Month_Year": "2020-02-01",
+    "Closing_Price": 16.386999130249023,
+    "Volume": 110810
+  },
+  {
+    "": 55,
+    "Month_Year": "2020-04-01",
+    "Closing_Price": 14.89799976348877,
+    "Volume": 35732
+  },
+  {
+    "": 56,
+    "Month_Year": "2020-05-01",
+    "Closing_Price": 18.440000534057617,
+    "Volume": 2775
+  },
+  {
+    "": 57,
+    "Month_Year": "2020-06-01",
+    "Closing_Price": 18.541000366210938,
+    "Volume": 52341
+  },
+  {
+    "": 58,
+    "Month_Year": "2020-07-01",
+    "Closing_Price": 24.18899917602539,
+    "Volume": 5095
+  },
+  {
+    "": 59,
+    "Month_Year": "2020-08-01",
+    "Closing_Price": 28.437000274658203,
+    "Volume": 141618
+  },
+  {
+    "": 60,
+    "Month_Year": "2020-09-01",
+    "Closing_Price": 23.433000564575195,
+    "Volume": 5365
+  },
+  {
+    "": 61,
+    "Month_Year": "2020-10-01",
+    "Closing_Price": 23.617000579833984,
+    "Volume": 1416
+  },
+  {
+    "": 62,
+    "Month_Year": "2020-12-01",
+    "Closing_Price": 26.332000732421875,
+    "Volume": 3367
+  },
+  {
+    "": 63,
+    "Month_Year": "2021-01-01",
+    "Closing_Price": 26.899999618530273,
+    "Volume": 1990
+  },
+  {
+    "": 64,
+    "Month_Year": "2021-02-01",
+    "Closing_Price": 26.402000427246094,
+    "Volume": 89121
+  },
+  {
+    "": 65,
+    "Month_Year": "2021-03-01",
+    "Closing_Price": 24.517000198364258,
+    "Volume": 6530
+  },
+  {
+    "": 66,
+    "Month_Year": "2021-04-01",
+    "Closing_Price": 25.85300064086914,
+    "Volume": 71585
+  },
+  {
+    "": 67,
+    "Month_Year": "2021-05-01",
+    "Closing_Price": 27.993000030517578,
+    "Volume": 3822
+  },
+  {
+    "": 68,
+    "Month_Year": "2021-06-01",
+    "Closing_Price": 26.165000915527344,
+    "Volume": 63957
+  },
+  {
+    "": 69,
+    "Month_Year": "2021-07-01",
+    "Closing_Price": 25.527999877929688,
+    "Volume": 4477
+  },
+  {
+    "": 70,
+    "Month_Year": "2021-09-01",
+    "Closing_Price": 22.020999908447266,
+    "Volume": 2334
+  },
+  {
+    "": 71,
+    "Month_Year": "2021-10-01",
+    "Closing_Price": 23.94499969482422,
+    "Volume": 794
+  },
+  {
+    "": 72,
+    "Month_Year": "2021-11-01",
+    "Closing_Price": 22.764999389648438,
+    "Volume": 74999
+  },
+  {
+    "": 73,
+    "Month_Year": "2021-12-01",
+    "Closing_Price": 23.327999114990234,
+    "Volume": 2986
+  },
+  {
+    "": 74,
+    "Month_Year": "2022-01-01",
+    "Closing_Price": 22.395000457763672,
+    "Volume": 1755
+  },
+  {
+    "": 75,
+    "Month_Year": "2022-02-01",
+    "Closing_Price": 24.361000061035156,
+    "Volume": 123756
+  },
+  {
+    "": 76,
+    "Month_Year": "2022-03-01",
+    "Closing_Price": 25.121000289916992,
+    "Volume": 6012
+  },
+  {
+    "": 77,
+    "Month_Year": "2022-04-01",
+    "Closing_Price": 23.040000915527344,
+    "Volume": 47438
+  },
+  {
+    "": 78,
+    "Month_Year": "2022-06-01",
+    "Closing_Price": 20.281999588012695,
+    "Volume": 48744
+  },
+  {
+    "": 79,
+    "Month_Year": "2022-07-01",
+    "Closing_Price": 20.1560001373291,
+    "Volume": 3974
+  },
+  {
+    "": 80,
+    "Month_Year": "2022-08-01",
+    "Closing_Price": 17.761999130249023,
+    "Volume": 40277
+  },
+  {
+    "": 81,
+    "Month_Year": "2022-09-01",
+    "Closing_Price": 18.959999084472656,
+    "Volume": 2160
+  },
+  {
+    "": 82,
+    "Month_Year": "2022-10-01",
+    "Closing_Price": 19.125,
+    "Volume": 978
+  },
+  {
+    "": 83,
+    "Month_Year": "2022-11-01",
+    "Closing_Price": 21.549999237060547,
+    "Volume": 67452
+  },
+  {
+    "": 84,
+    "Month_Year": "2022-12-01",
+    "Closing_Price": 23.86199951171875,
+    "Volume": 4095
+  },
+  {
+    "": 85,
+    "Month_Year": "2023-02-01",
+    "Closing_Price": 20.961000442504883,
+    "Volume": 62739
+  },
+  {
+    "": 86,
+    "Month_Year": "2023-03-01",
+    "Closing_Price": 24.076000213623047,
+    "Volume": 1828
+  },
+  {
+    "": 87,
+    "Month_Year": "2023-04-01",
+    "Closing_Price": 24.999000549316406,
+    "Volume": 74574
+  },
+  {
+    "": 88,
+    "Month_Year": "2023-05-01",
+    "Closing_Price": 23.474000930786133,
+    "Volume": 3312
+  },
+  {
+    "": 89,
+    "Month_Year": "2023-06-01",
+    "Closing_Price": 22.809999465942383,
+    "Volume": 42428
+  },
+  {
+    "": 90,
+    "Month_Year": "2023-07-01",
+    "Closing_Price": 24.854000091552734,
+    "Volume": 2828
+  },
+  {
+    "": 91,
+    "Month_Year": "2023-08-01",
+    "Closing_Price": 24.472000122070312,
+    "Volume": 61075
+  },
+  {
+    "": 92,
+    "Month_Year": "2023-09-01",
+    "Closing_Price": 22.236000061035156,
+    "Volume": 1973
+  }
+]

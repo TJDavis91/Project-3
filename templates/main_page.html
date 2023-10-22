@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Is Crypto the Future?</h1>
+    <p>Select your preffered Asset:</p>
+    <button id="bitcoinButton" class="currency-button" data-currency="Bitcoin">Bitcoin</button>
+    <button id="goldButton" class="currency-button" data-currency="Gold">Gold</button>
+    <button id="silverButton" class="currency-button" data-currency="Silver">Silver</button>
+    <p>Your Selection: <span id="selection">None</span></p>
+    <br>
+    <br>
+    <a href="{{ url_for('heatmap') }}" class="currency-button">View Heatmap of Gold Reserves by Country</a>
+    <br>
+    <br>
+    <a href="{{ url_for('compare_assets') }}" class="currency-button">Compare Assets</a>
+    <div id="counts-container">
+        <p>Count:</p>
+        <ul>
+            <li>Bitcoin: <span id="bitcoinCount">0</span></li>
+            <li>Gold: <span id="goldCount">0</span></li>
+            <li>Silver: <span id="silverCount">0</span></li>
+        </ul>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
+

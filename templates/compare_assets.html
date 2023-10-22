@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compare Assets</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Compare Assets</h1>
+    <p>Select an asset to compare:</p>
+    <form method="POST">
+        <select name="asset">
+            <option value="Bitcoin">Bitcoin</option>
+            <option value="Gold">Gold</option>
+            <option value="Silver">Silver</option>
+            <option value="BitcoinVsGold">Bitcoin vs Gold</option> 
+            <option value="BitcoinVsSilver">Bitcoin vs Silver</option> 
+        </select>
+        <input type="submit" value="View">
+    </form>
+    <div id="line-graph"></div>
+    <br>
+    <br>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector("form").addEventListener("submit", function (event) {
+                event.preventDefault(); // Prevent form submission
+    
+                var selectedAsset = document.querySelector("select[name='asset']").value;
+                var jsonFile1, jsonFile2, trace1, trace2, traceVolume, title;
+    
+                if (selectedAsset === "Bitcoin") {
+                    jsonFile1 = "{{ url_for('static', filename='Bitcoin.json') }}";
+                    title = "Bitcoin Price and Volume Over Time";
+                } else if (selectedAsset === "Gold") {
+                    jsonFile1 = "{{ url_for('static', filename='Gold.json') }}";
+                    title = "Gold Price and Volume Over Time";
+                } else if (selectedAsset === "Silver") {
+                    jsonFile1 = "{{ url_for('static', filename='Silver.json') }}";
+                    title = "Silver Price and Volume Over Time";
+                } else if (selectedAsset === "BitcoinVsSilver") {
+                    jsonFile1 = "{{ url_for('static', filename='Bitcoin.json') }}";
+                    jsonFile2 = "{{ url_for('static', filename='Silver.json') }}";
+                    title = "Bitcoin vs Silver Price Over Time";
+                } else if (selectedAsset === "BitcoinVsGold") {
+                    jsonFile1 = "{{ url_for('static', filename='Bitcoin.json') }}";
+                    jsonFile2 = "{{ url_for('static', filename='Gold.json') }}";
+                    title = "Bitcoin vs Gold Price Over Time";
+                }
+    
+                // Load and parse the JSON files for Bitcoin and Gold/Silver
+                Promise.all([
+                    fetch(jsonFile1).then(response => response.json()),
+                    jsonFile2 ? fetch(jsonFile2).then(response => response.json()) : Promise.resolve([]) // Handle the case when only one JSON file is needed
+                ]).then(function ([data1, data2]) {
+                    trace1 = {
+                        x: data1.map(item => item.Month_Year),
+                        y: data1.map(item => item.Closing_Price),
+                        mode: 'lines',
+                        type: 'scatter',
+                        name: selectedAsset
+                    };
+    
+                    if (selectedAsset === "Bitcoin" || selectedAsset === "Gold" || selectedAsset === "Silver") {
+                        traceVolume = {
+                            x: data1.map(item => item.Month_Year),
+                            y: data1.map(item => item.Volume),
+                            type: 'bar',
+                            name: 'Volume',
+                            yaxis: 'y2',
+                            opacity: 0.5
+                        };
+                    }
+    
+                    if (data2) {
+                        trace2 = {
+                            x: data2.map(item => item.Month_Year),
+                            y: data2.map(item => item.Closing_Price),
+                            mode: 'lines',
+                            type: 'scatter',
+                            name: selectedAsset === "BitcoinVsGold" ? 'Gold' : 'Silver'
+                        };
+                    }
+    
+                    var layout = {
+                        title: title,
+                        xaxis: { title: 'Month/Year' },
+                        yaxis: { title: 'Closing Price' },
+                        yaxis2: {
+                            title: 'Volume',
+                            overlaying: 'y',
+                            side: 'right'
+                        }
+                    };
+    
+                    Plotly.newPlot('line-graph', (selectedAsset === "Bitcoin" || selectedAsset === "Gold" || selectedAsset === "Silver") ? [trace1, traceVolume] : data2 ? [trace1, trace2] : [trace1], layout);
+                });
+            });
+        });
+    </script>
+    
+    
+    
+    
+    <br>
+    <br>
+    <a href="{{ url_for('main_page') }}">Back to Main Page</a>
+</body>
+</html>
+
